@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Wheel Shop - Product Details</title>
+<title>Wheel Shop - Cart</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,25 +18,17 @@
 </header>
 
 <main>
-<div class="product-detail">
-<div class="product-images">
-<img src="images/wheel1.jpg" alt="Product" id="detail-image">
+<h1>Shopping Cart</h1>
+<div id="cart-container">
+<!-- Cart items will appear here -->
 </div>
-<div class="product-info">
-<h1 id="detail-name">BBS LM</h1>
-<p class="price" id="detail-price">€299</p>
-<p id="detail-size">Size: 18"</p>
-<p id="detail-bolt">Bolt Pattern: 5x114.3</p>
-<p id="detail-offset">Offset: +35mm</p>
-<p id="detail-finish">Finish: Silver with polished lip</p>
-<button class="add-to-cart" data-id="1">Add to Cart</button>
-<a href="products.html" class="back-link">← Back to Products</a>
-</div>
+<div id="cart-total">
+<h3>Total: €<span id="total-amount">0</span></h3>
 </div>
 </main>
 
 <footer>
-<p>&copy; 2026 Cool Wheel</p>
+<p>&copy; 2026 Wheel Shop</p>
 </footer>
 
 <script src="js/script.js"></script>
