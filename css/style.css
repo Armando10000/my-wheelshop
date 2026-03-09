@@ -33,7 +33,73 @@ nav ul li a {
 nav ul li a:hover {
   color: #ff9900;
 }
+.hero {
+    position: relative;
+    text-align:center;
+    margin-bottom: 3rem;
 
+}
+.hero-image {
+    width:100%;
+    max-height: 700px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.hero-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-text h1 {
+font-size: 3rem;
+margin-bottom: 1rem;
+}
+
+.hero-text p {
+font-size: 1.2rem;
+margin-bottom: 2rem;
+}
+
+.shop-now-btn {
+display: inline-block;
+background-color: #ff9900;
+color: white;
+padding: 1rem 2rem;
+text-decoration: none;
+border-radius: 4px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+
+.shop-now-btn:hover {
+background-color: #ff7700;
+}
+/* Featured Section */
+.featured {
+margin: 3rem 0;
+}
+
+.featured h2 {
+text-align: center;
+margin-bottom: 2rem;
+font-size: 2rem;
+}
+/* Responsive adjustments for hero section */
+@media (max-width: 768px) {
+.hero-text h1 {
+font-size: 2rem;
+}
+.hero-text p {
+font-size: 1rem;
+}
+.shop-now-btn {
+padding: 0.8rem 1.5rem;
+}
+}
 /* Main content */
 main {
   max-width: 1200px;
